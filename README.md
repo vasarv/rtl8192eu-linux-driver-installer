@@ -1,10 +1,4 @@
 # rtl8192eu-linux-driver-installer
-For correct operation of the installer, enter the following commands:
+For start installer, enter the commands:
 
-    sudo chmod +x rtl8192eu-linux-driver-installer.sh
-Download installer:
-
-    git clone https://github.com/vasarv/rtl8192eu-linux-driver-installer.git
-Start installer:
-
-    sudo ./rtl8192eu-linux-driver-installer.sh
+    git clone https://github.com/vasarv/rtl8192eu-linux-driver-installer.git && cd rtl8192eu-linux-driver-installer && sudo chmod +x rtl8192eu-linux-driver-installer.sh && sudo ./rtl8192eu-linux-driver-installer.sh
