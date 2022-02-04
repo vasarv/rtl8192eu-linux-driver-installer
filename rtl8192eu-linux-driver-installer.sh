@@ -1,5 +1,5 @@
 git clone https://github.com/Mange/rtl8192eu-linux-driver.git && #Качаем git-репу
-sudo apt-get install git linux-headers-generic build-essential dkms && #Ставим пакеты, если не стоят.
+sudo apt-get install git linux-headers-generic build-essential dkms -y && #Ставим пакеты, если не стоят.
 cd rtl8192eu-linux-driver && #Заходим в папку с исходниками, компилим:
 make clean &&
 make &&
